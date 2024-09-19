@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFINITY - متجر العناية والتجميل</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #4A90E2;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .product {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 10px;
+            margin: 10px;
+            background-color: white;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .product:hover {
+            transform: scale(1.05);
+        }
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #4A90E2;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>مرحبا بك في INFINITY</h1>
+        <p>متجر العناية والتجميل</p>
+    </header>
+    <div class="container">
+        <h2>منتجاتنا</h2>
+        <div class="product">
+            <img src="image1.jpg" alt="سيروم العناية بالبشرة">
+            <h3>سيروم العناية بالبشرة</h3>
+            <p>سيروم مرطب وفعال لجميع أنواع البشرة.</p>
+            <p>السعر: 20€</p>
+        </div>
+        <div class="product">
+            <img src="image2.jpg" alt="كريم الترطيب">
+            <h3>كريم الترطيب</h3>
+            <p>كريم مغذي يمنح بشرتك نعومة ولمعان.</p>
+            <p>السعر: 25€</p>
+        </div>
+        <div class="product">
+            <img src="image3.jpg" alt="عطر فريد">
+            <h3>عطر فريد</h3>
+            <p>عطر يترك انطباعاً مميزاً.</p>
+            <p>السعر: 35€</p>
+        </div>
+        <div class="product">
+            <img src="image4.jpg" alt="شامبو طبيعي">
+            <h3>شامبو طبيعي</h3>
+            <p>شامبو لطيف يغذي الشعر من الجذور حتى الأطراف.</p>
+            <p>السعر: 15€</p>
+        </div>
+        <!-- يمكنك إضافة المزيد من المنتجات هنا -->
+    </div>
+    <footer>
+        <p>&copy; 2024 INFINITY. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
